@@ -44,5 +44,5 @@ Alternatively, information can also be found in **[package.json](https://github.
 ## Quick Demo
 Below is a quick demo of how to run the app via a localtunnel.
 
-<video controls src="https://github.com/jnysevilla/Homework1/blob/a4853031137bb81b211f3c488d03970579996fc7/files/demo.mov" type="video/mov" />
+<video controls src="files/demo.mov" type="video/mov" />
 
