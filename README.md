@@ -30,6 +30,7 @@ A live preview of the app can be viewed here: https://homework1-plum.vercel.app/
 
 ## Dependencies  
 To generate a list of dependencies. Please run this code using the command line. 
+
 ```
 npm list --depth=0
 ```
