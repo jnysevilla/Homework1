@@ -29,7 +29,11 @@ A live preview of the app can be viewed here: https://homework1-plum.vercel.app/
 3. Use the `clear` button to reset both input fields.
 
 ## Dependencies  
-`npm list --depth=0`
+To generate a list of dependencies. Please run this code using the command line. 
+```
+npm list --depth=0
+```
+Alternatively, information can also be found in **[package.json](https://github.com/jnysevilla/Homework1/blob/70c16e48cd96ecc4bf07c72970f1e8dd3e7cdf07/README.md)** file. 
 
 ## Preview
 
@@ -39,5 +43,5 @@ A live preview of the app can be viewed here: https://homework1-plum.vercel.app/
 ## Quick Demo
 Below is a quick demo of how to run the app via a localtunnel.
 
-<video controls src="files/demo.mov" type="video/mov" />
+<video controls src="https://github.com/jnysevilla/Homework1/blob/a4853031137bb81b211f3c488d03970579996fc7/files/demo.mov" type="video/mov" />
 
