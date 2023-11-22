@@ -1,14 +1,16 @@
 # Sum Calculator Web App
-Welcome to the Sum Calculator Web App, a lightweight and user-friendly tool designed to effortlessly compute the sum of two numeric values. This repository houses the source code for a straightforward yet effective web application.
+Welcome to the *"Sum Calculator Web App"*, a lightweight and user-friendly tool designed to effortlessly compute the sum of two numeric values. This repository houses the source code for a straightforward yet effective web application.
+
+A live preview of the app can be viewed here: https://homework1-plum.vercel.app/ 
 
 ## Features
-**Input Interaction:** The app provides a seamless user experience by allowing input of two numeric values through designated input fields.
++ **Input Interaction:** The app provides a seamless user experience by allowing input of two numeric values through designated input fields.
 
-**Instant Calculation:** Upon clicking the submit button, the app instantly computes and displays the total sum of the entered values, ensuring a quick and efficient calculation process.
++ **Instant Calculation:** Upon clicking the submit button, the app instantly computes and displays the total sum of the entered values, ensuring a quick and efficient calculation process.
 
-**Clear Functionality:** To enhance user convenience, a clear button is available, allowing users to reset both input fields with a single click.
++ **Clear Functionality:** To enhance user convenience, a clear button is available, allowing users to reset both input fields with a single click.
 
-**Numeric Input Validation:** The sum calculator enforces precision by accepting only numeric values, ensuring accurate and reliable calculations.
++ **Numeric Input Validation:** The sum calculator enforces precision by accepting only numeric values, ensuring accurate and reliable calculations.
 
 ![sum calculator web app preview](files/preview.png)
 
