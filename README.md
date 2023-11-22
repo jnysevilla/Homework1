@@ -29,7 +29,12 @@ A live preview of the app can be viewed here: https://homework1-plum.vercel.app/
 3. Use the `clear` button to reset both input fields.
 
 ## Dependencies  
-`npm list --depth=0`
+To generate a list of dependencies. Please run this code using the command line. 
+
+```
+npm list --depth=0
+```
+Alternatively, information can also be found in **[package.json](https://github.com/jnysevilla/Homework1/blob/70c16e48cd96ecc4bf07c72970f1e8dd3e7cdf07/README.md)** file. 
 
 ## Preview
 
