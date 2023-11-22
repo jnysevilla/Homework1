@@ -1,0 +1,132 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Patrick+Hand+SC&family=Redacted+Script&family=Sarina&family=Slackside+One&display=swap');
+
+
+:root {
+    /* color palette */
+    --desert-sand: #D2AB99;
+    --parchment: #eee8d0;
+    --atomic-tangerine: #F5A187;
+    --ash-gray: #BDBEA9;
+    --honeydew: #D3E1CD;
+    --baby-powder: #F7F7F2;
+    --walnut-brown: #5E503F;
+}
+
+
+body {
+    background: var(--baby-powder);
+}
+
+.slackside-font {
+    font-family: Slackside One;
+}
+
+.h1-div {
+    text-align: center;
+}
+
+h1 {
+    color: var(--atomic-tangerine);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    filter: 
+        drop-shadow(2px 5px 0 var(--parchment));
+}
+
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    background-color: var(--honeydew);
+    border: 2px solid var(--ash-gray);
+    filter: 
+        drop-shadow(10px 15px 0px var(--parchment))
+        drop-shadow(10px 15px 0px var(--desert-sand));
+}
+
+.plus-symbol {
+    display: block;
+    margin: -10px 0px;
+    font: 80px "Slackside One";
+    color: var(--atomic-tangerine);
+}
+
+label {
+    display: block;
+    flex-direction: column;
+    margin: 20px 0px 15px;
+    font-family: "Slackside One";
+    font-size: 30px;
+    color: var(--walnut-brown);
+}
+
+input {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid var(--ash-gray);
+    background: var(--baby-powder);
+    font-family: "Patrick Hand SC";
+    font-size: 25px;
+    padding: 10px;
+    color: var(--walnut-brown)
+}
+
+/* Hide arrow numbers in Input field */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#submit-btn, #clear-btn {
+    display: inline-block; 
+    margin: 25px 10px; 
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Sarina";
+    border: 1px solid var(--ash-gray);
+    filter: 
+    drop-shadow(1px 1px 0px var(--parchment))
+    drop-shadow(1px 1px 0px var(--desert-sand));
+}
+
+#submit-btn {
+    background-color: var(--parchment);
+    color: var(--atomic-tangerine);
+}
+
+#submit-btn:hover{
+    background-color: var(--parchment);
+    color: var(--walnut-brown);
+}
+
+#clear-btn {
+    background-color: var(--atomic-tangerine);
+    color: var(--parchment);
+}
+
+
+#result {
+    font-size: 25px;
+    font-family: "Slackside One";
+    text-transform: none;
+    color: var(--walnut-brown);
+    filter: 
+        drop-shadow(2px 2px 0 var(--baby-powder));
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Patrick Hand SC';
+    color: var(--walnut-brown);
+    font-size: 20px;
+}
