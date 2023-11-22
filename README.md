@@ -43,6 +43,9 @@ Alternatively, information can also be found in **[package.json](https://github.
 
 ## Quick Demo
 Below is a quick demo of how to run the app via a localtunnel.
+> [!NOTE]  
+> If the video file is not working, please follow this link instead: https://player.vimeo.com/video/887446997
 
 <video controls src="files/demo.mov" type="video/mov" />
+
 
